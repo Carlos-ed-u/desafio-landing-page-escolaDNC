@@ -1,0 +1,79 @@
+*{ margin: 0;
+    font-family: "inter";
+}
+#cabecalho{
+    background-color:#303030;
+    color:  #FFFFFF;
+    text-align: justify;
+    padding:150px 50px 100px 50px
+   
+}
+#titulo-cabecalho{
+    font-size: 50px;
+}
+#informacoes{
+    background-color:  #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 50px;
+    font-size: 20px;
+    padding-right: 30px;
+    }
+    .numeros{
+        font-size: 35px;
+    }
+#historia{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin-top: 75px;
+    margin-left: 100px;
+    margin-bottom: 75px;
+
+}
+#textoshistoria{
+    margin-top: 200px;
+}
+#titulo-historia{
+    font-size: 40px;
+}
+#texto-historia{
+    font-size: 25px;
+}
+#contatos{
+    background-color: #303030; 
+    text-align: center;
+    margin-top:100px;
+    padding: 75px;
+}
+#titulo-contatos{
+    color: #FFFFFF;     
+}
+input{
+    font-size: 24px;
+    width: 500px;
+    height: 50px;
+    border: 0px;
+    border-radius: 5px;
+    margin: 25px;
+    text-align: left;
+    padding-left: 10px
+
+}
+button{
+    background-color: #C07212;
+    color: #FFFFFF;
+    width: 286px;
+    height: 74px;
+    font-size: 30px;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    transform: translateY(-5px);
+    background-color: #ee9222dd;
+    color: #fffdfd;
+}
